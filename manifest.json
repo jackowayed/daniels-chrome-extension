@@ -5,12 +5,28 @@
     "manifest_version": 3,
     "content_scripts": [
         {
-            "matches": ["https://*.linkedin.com/*"],
-            "css": ["linkedin.css"]
+            "matches": [
+                "https://*.linkedin.com/*"
+            ],
+            "css": [
+                "linkedin.css"
+            ]
         },
         {
-            "matches": ["https://*.pagerduty.com/sign_in"],
-            "js": ["pd-signin.js"]
+            "matches": [
+                "https://*.pagerduty.com/sign_in"
+            ],
+            "js": [
+                "pd-signin.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://*.twitter.com/*"
+            ],
+            "css": [
+                "twitter.css"
+            ]
         }
     ]
-  }
+}
