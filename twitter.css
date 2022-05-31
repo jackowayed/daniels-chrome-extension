@@ -1,3 +1,4 @@
-div[aria-label="Timeline: Trending now"] {
+div[aria-label="Timeline: Trending now"],
+aside[aria-label="Who to follow"] {
   display: none;
 }
