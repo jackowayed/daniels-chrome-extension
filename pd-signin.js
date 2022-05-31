@@ -1,0 +1,1 @@
+document.querySelector("a[href='/sso/saml/sign-in']").click();

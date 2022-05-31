@@ -1,0 +1,16 @@
+{
+    "name": "Daniel's Extension",
+    "description": "Userscripts etc.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.linkedin.com/*"],
+            "css": ["linkedin.css"]
+        },
+        {
+            "matches": ["https://*.pagerduty.com/sign_in"],
+            "js": ["pd-signin.js"]
+        }
+    ]
+  }

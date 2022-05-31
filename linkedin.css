@@ -1,0 +1,6 @@
+/* The news sidebar */
+div.news-module,
+/* the "news feed" entries */
+div.feed-shared-update-v2 {
+    display: none;
+}
