@@ -3,6 +3,9 @@
     "description": "Userscripts etc.",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -27,6 +30,17 @@
             "css": [
                 "twitter.css"
             ]
+        },
+        {
+            "matches": [
+                "https://*.zoom.us/s/*"
+            ],
+            "js": [
+                "zoom.js"
+            ]
         }
-    ]
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
 }
