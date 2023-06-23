@@ -1,1 +1,1 @@
-document.querySelector("a[href='/sso/saml/sign-in']").click();
+document.querySelector("button#sso_submit").click();
