@@ -33,7 +33,8 @@
         },
         {
             "matches": [
-                "https://*.zoom.us/s/*"
+                "https://*.zoom.us/s/*",
+                "https://*.zoom.us/j/*"
             ],
             "js": [
                 "zoom.js"
