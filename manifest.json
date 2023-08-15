@@ -11,6 +11,9 @@
             "matches": [
                 "https://*.linkedin.com/*"
             ],
+            "exclude_matches": [
+                "https://*.linkedin.com/*urn:li:activity*"
+            ],
             "css": [
                 "linkedin.css"
             ]
