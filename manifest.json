@@ -12,7 +12,7 @@
                 "https://*.linkedin.com/*"
             ],
             "exclude_matches": [
-                "https://*.linkedin.com/*urn:li:activity*"
+                "https://*.linkedin.com/*urn*"
             ],
             "css": [
                 "linkedin.css"
