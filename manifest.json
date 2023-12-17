@@ -12,7 +12,8 @@
                 "https://*.linkedin.com/*"
             ],
             "exclude_matches": [
-                "https://*.linkedin.com/*urn*"
+                "https://*.linkedin.com/*urn*",
+                "https://*.linkedin.com/posts/*"
             ],
             "css": [
                 "linkedin.css"
