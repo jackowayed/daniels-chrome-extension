@@ -4,8 +4,13 @@
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [
-        "tabs"
+        "tabs",
+        "storage"
     ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Daniel's Extension"
+    },
     "content_scripts": [
         {
             "matches": [
@@ -15,8 +20,8 @@
                 "https://*.linkedin.com/*urn*",
                 "https://*.linkedin.com/posts/*"
             ],
-            "css": [
-                "linkedin.css"
+            "js": [
+                "linkedin.js"
             ]
         },
         {
