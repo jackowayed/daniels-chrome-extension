@@ -43,6 +43,14 @@
             "js": [
                 "zoom.js"
             ]
+        },
+        {
+            "matches": [
+                "https://github.com/*"
+            ],
+            "js": [
+                "github-sso.js"
+            ]
         }
     ],
     "background": {
