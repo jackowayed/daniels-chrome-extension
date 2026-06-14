@@ -42,6 +42,15 @@
         },
         {
             "matches": [
+                "https://sfstandard.com/*",
+                "https://*.sfstandard.com/*"
+            ],
+            "css": [
+                "sfstandard.css"
+            ]
+        },
+        {
+            "matches": [
                 "https://*.zoom.us/s/*",
                 "https://*.zoom.us/j/*"
             ],
