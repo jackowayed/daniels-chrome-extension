@@ -65,6 +65,14 @@
             "js": [
                 "github-sso.js"
             ]
+        },
+        {
+            "matches": [
+                "https://*.reddit.com/*"
+            ],
+            "css": [
+                "reddit.css"
+            ]
         }
     ],
     "background": {
