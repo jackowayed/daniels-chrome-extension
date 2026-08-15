@@ -72,7 +72,11 @@
             ],
             "css": [
                 "reddit.css"
-            ]
+            ],
+            "js": [
+                "reddit.js"
+            ],
+            "run_at": "document_start"
         }
     ],
     "background": {
