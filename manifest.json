@@ -77,6 +77,16 @@
                 "reddit.js"
             ],
             "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "https://*.reddit.com/*"
+            ],
+            "js": [
+                "reddit-trap-guard.js"
+            ],
+            "run_at": "document_start",
+            "world": "MAIN"
         }
     ],
     "background": {
